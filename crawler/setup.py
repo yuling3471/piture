@@ -9,7 +9,7 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 
 
 setup(
-    name="piture",  # Required
+    name="crawler",  # Required
     version="0.0.1",  # Required
     description="test",  # Optional
     long_description=long_description,  # Optional
