@@ -9,16 +9,16 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 
 
 setup(
-    name="crawler_sam",  # Required
+    name="piture",  # Required
     version="0.0.1",  # Required
     description="test",  # Optional
     long_description=long_description,  # Optional
     long_description_content_type="text/markdown",  # Optional (see note above)
-    author="linsam",  # Optional
-    author_email="samlin266118@gmail.com",  # Optional
+    author="yuling",  # Optional
+    author_email="yuling3471@gmail.com",  # Optional
     classifiers=[  # Optional
         "Development Status :: 3 - Alpha",
     ],
-    packages=find_packages(where="src"),
-    package_dir={"": "src"},
+    #packages=find_packages(where="src"),
+    #package_dir={"": "src"},
 )
